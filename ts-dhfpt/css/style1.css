@@ -1,0 +1,133 @@
+body {background: #efefef!Important;}
+#wrapper{font-family: 'Roboto', sans-serif; }
+.big-img {background: url(../images/banner_landingpage_2016_2.jpg) no-repeat; max-width:100% !important;
+    max-height:100% !important;
+	height: 844px;
+    display:block;
+	background-size: cover;}
+#img-tuyen-sinh {
+	position: relative;
+    top: -315px;
+    z-index: 999;
+}
+.no-padding {padding-left: 0; padding-right: 0;}
+.no-padding-left {padding-left:0;}
+.no-padding-right {padding-right:0;}
+.top-title {position: absolute; top: 463px; left: 150px; background: #000000; opacity: 0.8; }
+.top-title h1 {color: #f46521; font-weight: bold; font-size: 28px;}
+.text-top {background: #000000; opacity: 0.8;  position: absolute; top: 535px; left: 150px;}
+.text-top p {color: #ffffff; font-size: 18px; font-weight: 100;}
+#main{background: #ffffff;  margin-top: -219px; border-radius: 10px 10px 0 0; padding-top: 10px;}
+#main #feature .big {font-size: 80px; color: #f46521;}
+#main #feature .text-small {font-size: 18px; text-transform: uppercase;}
+#vi-sao {background-color: #f46521;}
+.title-01 h2{color: #f46521; margin-top: 50px; margin-bottom: 30px;}
+.title-01 p{font-weight: 300; font-size: 18px;}
+.centered {margin: 0 auto; display: block;}
+#wrapper-ly-do{background-color: #fff;}
+#wrapper-ly-do p, #wrapper-ly-do-2 p {text-transform: uppercase; color: #f46521; margin-top: 10px; font-size: 18px; }
+.button-reg {background: #f46521; color: #ffffff; padding: 10px 20px; text-transform: uppercase; font-size: 27px; border-radius: 10px; margin-top: 45px; margin-bottom: 60px; font-weight: bold;}
+.button-reg:hover, #button-reg:hover {text-decoration: none; color: #8058f3;}
+#thong-bao-tuyen-sinh {background: #e1e1e1;}
+#thong-bao-tuyen-sinh h3 {color: #f46521; text-transform: uppercase; font-weight: normal; font-size: 25.5px; margin-top: 40px;}
+#thong-bao-tuyen-sinh .caption-text {font-weight: 100; color: #000; font-size: 18px;}
+#noi-dung-thong-bao .list-group li a{color: #f46521; font-size: 18px;}
+#noi-dung-thong-bao .list-group li a:hover, #noi-dung-thong-bao .list-group li a:active {text-decoration: none;}
+#noi-dung-thong-bao .list-group li {padding: 5px 10px;}
+#noi-dung-thong-bao .list-group .active {background: #ffffff; padding: 5px 10px;}
+#noi-dung-thong-bao .list-group .active a {color: #f46521;}
+#noi-dung-thong-bao .tab-content .active {background: #ffffff;}
+#noi-dung-tab {padding-left: 0;}
+#menu-list-tab {padding-right: 0;}
+.button-reg-2:hover {text-decoration: none; color: #8058f3;}
+.button-reg-2 {font-weight: bold; background: #ffffff; color: #f46521; padding: 10px 20px; text-transform: uppercase; font-size: 27px; border-radius: 10px; margin-top: 20px; margin-bottom: 30px;}
+#dang-ky-hoc {background: #f46521; margin-bottom: 20px;}
+#dang-ky-hoc .btn {margin-top: 20px; border-radius: 0;}
+#btnAjax {background: #c00005; border: none; border-radius: 0; text-transform: uppercase;}
+#dang-ky-hoc .title {color: #ffffff; text-transform: uppercase;}
+#dang-ky-hoc p {color: #ffffff; margin-top: 20px;}
+.glyphicon-chevron-right {color: red;}
+.glyphicon-chevron-left {color: red;}
+.carousel-control.right {background-image: none;}
+.carousel-control.left {background-image: none;}
+#testimonial .title {text-transform: uppercase; color: #f46521;}
+#navbar a {color: #f46521; text-transform: uppercase;}
+#navbar {background: #ffffff; border-radius: 5px;}
+#navbar-wrapper {position: absolute; top: 50px; z-index: 999;}
+#navbar .active a, #navbar  a:hover, #navbar  a:focus{background: #f46521; color: #ffffff;}
+#thu-vien-anh {background: #f46521; padding-bottom: 20px;}
+#thu-vien-anh h3{color: #ffffff;}
+#lien-he {background: #da581a; color: #ffffff;}
+#lien-he h3 {margin-left: 15px; text-transform: uppercase; font-size: 27px;}
+.logo-fu {padding: 10px;}
+#noi-dung-tab {background: white; padding-left: 20px; padding-top: 20px;}
+#bang-ma-to-hop tr td {border: 1px solid #ddd;} 
+#chuyen-nganh  {background-color: #efefef; padding-bottom: 40px;}
+#chuyen-nganh .title-chuyen-nganh {color:#f46521; font-size: 26px; margin-bottom: 35px; margin-top: 45px;}
+#chuyen-nganh  img {width: 100%;}
+#chuyen-nganh ul li a {color: #363636; font-weight: bold;}
+#chuyen-nganh .wrapper-title-chuyen-nganh h4 {text-transform: uppercase; color: #fff;}
+#chuyen-nganh .wrapper-title-chuyen-nganh {background-color: #f46521; padding: 18px 18px 10px 18px;}
+#chuyen-nganh .list-chuyen-nganh {padding-top: 10px; padding-bottom: 5px; background-color: #fff; height: 75px;}
+#noi-dung-thong-bao .nav li a {color: #f46521; padding: 10px 10px; font-size: 18px;}
+#noi-dung-thong-bao .nav-pills>li.active>a, #noi-dung-thong-bao .nav-pills>li.active>a:hover, #noi-dung-thong-bao .nav-pills>li.active>a:focus, #noi-dung-thong-bao .nav-pills>li>a:hover{
+	background-color: #f15b26; color: #fff; border-radius:0;}
+.button-reg-2 {color: #fff; background-color: #f46521;}
+#button-reg {color: #fff; background-color: #000; padding: 10px 20px; text-transform: uppercase; font-size: 27px; border-radius: 10px; margin-top: 45px; margin-bottom: 30px; font-weight: bold;}
+.mfp-close-btn-in .mfp-close,  .mfp-close-btn-in .mfp-close:active{
+    border-radius: 25px;
+    color: #f76505!Important;
+    background-color: #790000;
+    top: -20px;
+    opacity: 1;
+    top: 10px;
+}
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close{background-color: transparent;}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.big-img{
+		content: url('../images/banner_landingpage_2016_mobile.jpg');
+		max-width: 100% !important;
+		max-height: 100% !important;
+		height: 330px;
+		display: block;
+		background-size: contain;
+		margin-top: 52px;
+		}
+	#small-img-top-mobile {margin-top: -1px;}
+	#main {margin-top: 0;}
+	#navbar-wrapper {top: 0;}
+	#main #feature .big {font-size: 50px; color: #f46521;}
+	#main #feature .text-small {font-size: 10px; text-transform: uppercase;}
+	#wrapper-ly-do {background-color: #fff;}
+	.title-01 h2 {color: #f46521; margin-top: 0; font-size: 20px;}
+	.carousel img{margin: 0 auto;}
+	#button-reg {font-size: 18px; background-color: #f46521;}
+	.carousel-control {opacity: 1;}
+	#chuyen-nganh .glyphicon-chevron-left, #chuyen-nganh .glyphicon-chevron-right {color: #fff;}
+	#thu-vien-anh  .title{text-align: center;}
+	#dang-ky-hoc  {margin-bottom: 0;}
+	#lien-he {text-align: center;}
+	#testimonial .title {font-size: 18px; }
+	#chuyen-nganh {padding-bottom: 0;}
+	#thong-bao-tuyen-sinh {padding-top: 20px; padding-bottom: 20px;}
+	#thong-bao-tuyen-sinh h3 {margin-top:0;}
+	#thong-bao-tuyen-sinh h3 {font-size: 23px;}
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.title-01 h2 {color: #f46521; }
+	#wrapper-ly-do {background-color: #fff;}
+	
+	#logo-fu-mobile {background-color: #fff; padding: 10px; border-radius: 5px; margin-bottom: 10px; margin-top: 15px;}
+	.big-img{
+		content: url('../images/banner_landingpage_2016_tablet.jpg');
+		max-width: 100% !important;
+		max-height: 100% !important;
+		height: 816px;
+		display: block;
+		background-size: contain;
+		margin-top: 52px;
+		}
+}
